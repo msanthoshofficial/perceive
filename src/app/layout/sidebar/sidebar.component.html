@@ -1,0 +1,8 @@
+<div class="card flex justify-content-center">
+  <p-sidebar [(visible)]="sidebarVisible" [dismissible]="false" [showCloseIcon]="false">
+    <div class="flex w-full px-1 justify-content-between align-items-center">
+      <h2>profile</h2><i class="pi pi-user" style="font-size: 1.5rem"></i>
+    </div>
+  </p-sidebar>
+  <p-button (click)="sidebarVisible = true" icon="pi pi-arrow-right"></p-button>
+</div>

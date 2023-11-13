@@ -1,0 +1,7 @@
+::ng-deep .p-breadcrumb {
+  border: none;
+  background: none;
+}
+::ng-deep .p-tag {
+  font-size: 1.5rem;
+}

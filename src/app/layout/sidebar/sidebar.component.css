@@ -1,0 +1,11 @@
+::ng-deep .p-component-overlay {
+  display: none;
+}
+::ng-deep .p-sidebar-left {
+  transition: 0.3s;
+  left: -190px;
+}
+::ng-deep .p-sidebar:hover {
+  left: 0;
+  transition: 0.3s;
+}
